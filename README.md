@@ -20,38 +20,7 @@ Beyond burgers offers vegan plant-based alternatives in a restaurant style appli
 
 * Your app will store every burger in a database, whether devoured or not.
 
-
-#### App Setup
-
-1. Create a GitHub repo called `burger` and clone it to your computer.
-
-2. Make a package.json file by running `npm init` from the command line.
-
-3. Install the Express npm package: `npm install express`.
-
-4. Create a server.js file.
-
-5. Install the Handlebars npm package: `npm install express-handlebars`.
-
-6. Install MySQL npm package: `npm install mysql`.
-
-7. Require the following npm packages inside of the server.js file:
-   * express
-
-#### DB Setup
-
-1. Inside your `burger` directory, create a folder named `db`.
-
-2. In the `db` folder, create a file named `schema.sql`. Write SQL queries this file that do the following:
-
-   * Create the `burgers_db`.
-   * Switch to or use the `burgers_db`.
-   * Create a `burgers` table with these fields:
-     * **id**: an auto incrementing int that serves as the primary key.
-     * **burger_name**: a string.
-     * **devoured**: a boolean.
-
-3. Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries.
+### To run the app
 
 4. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line
 
