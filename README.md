@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-# beyond-burger
-a "homemade" ORM handlebars restaurant application using Node and MySQL to query and route data.
 
-
-
-# Node Express Handlebars
-=======
 # beyond-da-burger
 This is a "homemade" ORM handlebars restaurant application using Node and MySQL to query and route data flow. This full stack veggie burger-logger web app features the use of Node, Express server, Handlebars for view generation and a homemade ORM.
->>>>>>> cf2e72bf4c6e8fecca5df469f80d9c9b5a84ea59
+
 
 ### Overview
 
