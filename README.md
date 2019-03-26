@@ -1,22 +1,22 @@
-# beyond-da-Sequelized-burger
-This is a "homemade" ORM handlebars restaurant application using Node and MySQL to query and route data flow. This full stack veggie burger-logger web app features the use of Node, Express server, Handlebars for view generation and a homemade ORM.
+# beyond-burger
+a "homemade" ORM handlebars restaurant application using Node and MySQL to query and route data.
+
+
+
+# Node Express Handlebars
 
 ### Overview
 
 Beyond burgers offers vegan plant-based alternatives in a restaurant style application logging options with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Following the MVC design pattern; this appication queries and routes data with Node and MySQL, then runs Handlebars to generate HTML.
 
-### Deployed here
+### Links to view
 
-* **Heroku link here.** Be sure to utilize the [MYSQL Heroku Deployment Guide](../../Supplemental/MySQLHerokuDeploymentProcess.pdf) in order to deploy your assignment.
-**Github link here.**
+* Deployed: https://beyond-burger.herokuapp.com/
+* Githubrepo: https://shannonruder.github.io/beyond-burger/
 
 ### Application Overview
 
-* Beyond-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
-
-* Whenever a user submits a burger's name, it will display the burger on the left side of the page -- waiting to be devoured.
-
-* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+* Beyond-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, it will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 
 * Your app will store every burger in a database, whether devoured or not.
 
@@ -64,3 +64,5 @@ Beyond burgers offers vegan plant-based alternatives in a restaurant style appli
    * With the `mysql>` command line tool running, enter the command `source schema.sql`. This will run your schema file and all of the queries in it -- in other words, you'll be creating your database.
 
    * Now insert the entries you defined in `seeds.sql` by running the file: `source seeds.sql`.
+
+     * The app itself is fairly straightforward but the focus here was to practice data flow, routing, view generation, etc., in a full stack design.
