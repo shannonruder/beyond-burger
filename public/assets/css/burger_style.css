@@ -1,5 +1,7 @@
 body {
-	background-color: lightgray;
+  background-image: url(../img/tile_bk.png);
+  background-repeat: repeat-x; 
+	background-color: #669966;
 	margin-top: 20px;
 }
 
