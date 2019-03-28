@@ -6,15 +6,21 @@ body {
 }
 
 img {
-	width: 200px;
+	width: 300px;
 	height: auto;
 }
 
+h1  {
+  font-size: 3.5em;
+  letter-spacing: 6px;
+  text-shadow: 1px 1px 	 #d1e0d1;
+}
 
 li {
+    list-style-type: none;
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: #d1e0d1;
   }
   
   .label {
@@ -22,12 +28,20 @@ li {
   }
   
   .create-update-form {
+    
     padding: 5px;
     margin: 5px;
-    background: aqua;
+    background: #e0ebe0;
   }
   
   .form-group {
     margin-bottom: 5px;
+  }
+
+p {
+  font-size: 15px;
+  text-align: center;
+    font-weight: bold;
+    color:#f0f5f0;
   }
   
